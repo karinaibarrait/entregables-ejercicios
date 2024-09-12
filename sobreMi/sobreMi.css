@@ -1,0 +1,73 @@
+/* Cambiar el color de fondo de toda la página */
+body {
+    background-color: #fff0f7; /* Color de fondo azul claro */
+    font-family: Arial, sans-serif; /* Fuente general para el texto */
+    text-align: justify; /* Justifica el texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado principal */
+h1 {
+    color: #ffffff; /* Color del texto del título */
+    background-color: #d019c6; /*color del fondo */
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    color: #d019c6; /* Color del texto del título */
+    background-color: #ff81f954; /*color del fondo */
+    text-align: left;
+    padding: 20px;
+}
+
+/* Estilos para los párrafos */
+p {
+    color: #000000;
+    line-height: 1.6;
+    margin: 20px;
+    font-size: 18px;
+}
+
+/* Estilos para las listas */
+ul, ol {
+    margin: 30px;
+    padding: 0 40px;
+    font-size: 16px;
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #7418b6; /* Color morado para los enlaces */
+}
+
+/* Estilo para las imágenes */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contenedor flexbox para alinear imagen y texto */
+.contenedor {
+    display: flex; /* Activa el modo flexbox */
+    align-items: center; /* Alinea verticalmente la imagen y el texto */
+    justify-content: space-between; /* Espacia la imagen y el texto */
+    gap: 20px; /* Espacio entre la imagen y el texto */
+    padding: 20px;
+}
+
+/* Estilo de la imagen */
+.contenedor img {
+    max-width: 600px; /* Limita el ancho máximo de la imagen */
+    height: auto; /* Mantiene las proporciones de la imagen */
+    border-radius: 10px; /* Esquinas redondeadas */
+}
+
+/* Estilo del texto */
+.contenedor .texto {
+    max-width: 600px; /* Ancho máximo del texto para que se vea bien junto a la imagen */
+}
+
